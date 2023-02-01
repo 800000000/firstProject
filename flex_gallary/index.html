@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Gallary</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+            <div class="container">
+                <h1>Images Gallery</h1>
+            <div class="wrapper" id="wrap">
+            <div class="first-img"><button onclick="formbutton(this)"><img id="i1" src="1.jpg" alt="_black"> </button> </div> 
+            <div class="second-img"><button onclick="register(this)"><img id="i2" src="2.jpg" alt="_black"> </button> </div>
+            <div class="third-img"><button onclick="diceGame(this)"><img id="i3" src="3.jpg" alt="_black"></button></div>
+            <div class="third-img"><button onclick="dice(this)"><img id="i4" src="4.jpg" alt="_black"></button></div>
+            
+            </div>    
+            </div>
+          
+            
+
+          <div class="form mt-5" id="formF">
+                         <h1>User Please Provide Your Details Here</h1>
+               <div class="user">
+                   <label for="name">Name</label>
+                   <input type="text" id="name" placeholder="enter your name"> 
+                   <label for="email">E-Mail</label>   
+                   <input type="text" id="email" placeholder="enter your email"> 
+                   <label for="username">UserName</label>   
+                   <input type="text" id="username" placeholder="enter your username">  
+               </div>
+               <button id="submit" onclick="submit()">Submit</button>
+               <!-- <button id="prev" onclick="previous()">Previous</button> -->
+          </div>
+
+          <!-- ////Registered -->
+          <div class="registered" id="reg">
+            <h1> Registered </h1> 
+            <p id="n1">Dipak Zende</p>
+            <p id="e1">deepakzende307@gmail.com</p>
+            <p id="u1">dipak307</p>           
+            <button onclick="previous()">Previous</button>
+          </div>
+
+          <!-- /////dice Game -->
+          <div class="diice" id="dic">
+            <h1>click on the image to generate a number</h1>
+         <button id="img2"  onclick="generateRandom()"><img src="dice.jpg" alt="_black"> </button>
+         <div id="f"></div>
+          </div>
+
+<div id="coupon" class="c">
+    <h1>Your Got a Coupon</h1>
+</div>
+
+          <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+h1{
+    text-align: center;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#i1{
+    height: 305px;
+    width: 305px;
+    display: inline;
+    margin-left: 8px;
+}
+#i2{
+    height: 305px;
+    width: 305px;
+    display: inline;
+    margin-left: 8px;
+}
+#i3{
+    height: 305px;
+    width: 305px;
+    display: inline;
+    margin-left: 8px;
+}
+#i4{
+    height: 305px;
+    width: 305px;
+    display: inline;
+    margin-left: 8px;
+}
+img:hover{
+    opacity: .5;
+    transition: .9s;
+}
+.form{
+    margin-top: 20px;
+    text-align: center;
+}
+#submit{
+    margin-top: 6px;
+    background-color: aqua;
+}
+#formF{
+    display: none;
+}
+.registered{
+    text-align: center;
+}
+#reg{
+    display: none;
+}
+#img2{
+    margin-left: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    position:absolute;
+}
+#dic{
+    display: none;
+}
+#coupon{
+    display: none;
+}
+.c{
+    margin-left: 500px;
+}
+
+
+
+
